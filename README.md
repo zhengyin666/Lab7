@@ -1,4 +1,8 @@
+# Check Your Understanding
+Name: Zhengyin Yang
+
 (1) 
+I would choose Option 1: Within a GitHub Action that runs whenever code is pushed.
 
 I would put the automated tests in a GitHub Action that runs whenever code is pushed. That way, every time I make changes and push them, the project gets checked automatically. I think this is helpful because it can catch problems early instead of waiting until the whole project is finished. I would still test locally sometimes, but using GitHub Actions makes it more consistent.
 
@@ -6,7 +10,7 @@ I would put the automated tests in a GitHub Action that runs whenever code is pu
    
 (3) Navigation mode checks the website when the page first loads. It is mainly looking at things like loading speed and overall performance. Snapshot mode checks the page as it is at that moment, so it is more useful for finding accessibility problems on the current screen. Basically, navigation is better for page load testing, while snapshot is better for checking the current state of the page.
    
-(4) Based on Lighthouse, we could improve the mobile layout, reduce render-blocking requests, and make the page load faster. These changes would help the site work better on smaller screens and feel smoother for users.
+(4) Based on my Lighthouse results, the site had good scores overall, like 90 for Accessibility and 91 for SEO. Three things we could still improve are adding a lang attribute to the HTML element, adding a meta description, and reducing render-blocking requests. The lang attribute would help with accessibility, the meta description would help with SEO, and reducing render-blocking requests would make the page load faster.
 
 
 
